@@ -24,28 +24,28 @@
 		<input type="radio" name="option" value="鐵軌">鐵軌<br>
 		<input type="radio" name="option" value="山巔">山巔<br>
 		<select name="test" class="opts" id="myselect">
-		  <option selected value=1>舒宇宸</option>
-		  <option value=2>劉之中</option>
-		  <option value=3>李昱勳</option>
+		  <option selected value=1>豆X妹</option>
+		  <option value=2>林X欣</option>
+		  <option value=3>吳X堤</option>
 		</select>
-		名言一:<input id="quote_input1" value="數學建模教育之道無它, 唯數學與榜樣"> <br>
-		名言二:<input id="quote_input2" value="Mathematical Modeling is nothing, but Mathematics and Model!"> <br>
-		名言三:<input id="quote_input3" value="舒大ㄅ土, me"> <br>
+		名言一:<input id="quote_input1" value="歲月就像一把殺豬刀 紫了葡萄 黑了木耳 軟了香蕉"> <br>
+		名言二:<input id="quote_input2" value="樹懶叫時 吃到老鷹毛"> <br>
+		名言三:<input id="quote_input3" value="沈X林, X玉X"> <br>
 		<button type="button" id="mybutton" onclick=showopt()>產生名言</button>	<!-- 按了之後要執行showopt() -->
 	</div>
 </div>
 <div id="sec2">	
-	<span id="teacher" class="background-right-bottom" style="background-image:url('images/ycshu.png'); z-index:5;"></span>
+	<span id="teacher" class="background-right-bottom" style="background-image:url('images/do.png'); z-index:5;"></span>
 	<span id="bgimage" class="background light" style="background-image:url('images/road-dawn-mountains-sky.jpeg');"></span>
 	<div class="wrap  fadeInUp">
 		<div class="content-left">
 			<blockquote>
-				<h3 id="quote_line1">"數學建模教育之道無它<br>唯數學與榜樣"</h3>
-				<p id="author1"><cite>舒大ㄅ土</cite></p>
+				<h3 id="quote_line1">"歲月就像一把殺豬刀它<br>紫了葡萄<br>黑了木耳<br>軟了香蕉"</h3>
+				<p id="author1"><cite>沈X林</cite></p>
 			</blockquote>
 			<blockquote>
-				<h3 id="quote_line2">"Mathematical Modeling is nothing<br>but Mathematics and Model!"</h3>
-				<p id="author2"><cite>me</cite></p>				
+				<h3 id="quote_line2">"樹懶叫時<br>吃到老鷹毛"</h3>
+				<p id="author2"><cite>x玉x</cite></p>				
 			</blockquote>
 		</div>
 	</div>
@@ -102,11 +102,11 @@ function showopt() {
 	
 	var teacher_no = document.getElementById("myselect").value;
 	if(teacher_no == 1) {
-		document.getElementById("teacher").style = "background-image:url('images/ycshu.png'); z-index:5;";
+		document.getElementById("teacher").style = "background-image:url('images/do.png'); z-index:5;";
 	} else if (teacher_no == 2) {
-		document.getElementById("teacher").style = "background-image:url('images/ccliu.png'); z-index:5;";
+		document.getElementById("teacher").style = "background-image:url('images/lin.png'); z-index:5;";
 	} else if (teacher_no == 3) {
-		document.getElementById("teacher").style = "background-image:url('images/andylee.png'); z-index:5;";
+		document.getElementById("teacher").style = "background-image:url('images/wu.png'); z-index:5;";
 	}
 	
 	var y = document.getElementsByName("option");
